@@ -261,6 +261,9 @@ footer {
   html p {
     font-size: 2.5rem;
   }
+  html h3 {
+    font-size: 4rem;
+  }
   .space-images .blast {
     width: 90% !important;
   }
@@ -280,17 +283,11 @@ footer {
     padding: 20px !important;
     margin: 3%;
   }
-  .walk .walk-text h3 {
-    font-size: 4rem;
-  }
-  .walk .walk-text p {
-    font-size: 2.5rem;
-  }
-  .walk .signup {
+  .signup {
     width: 100%;
     font-size: 4rem;
   }
-  .walk .walk-img {
+  .walk-img {
     width: 90% !important;
   }
 }

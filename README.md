@@ -46,7 +46,7 @@ It makes it easier to use rems in a way that is similar to using px
 
 4. How would you describe preprocessing to someone new to CSS?
 
-Preprocessing makes coding easier by allowing use to use variables, mixins, functions, and operations. It also allows us to nest the elements.
+Preprocessing makes coding easier by allowing us to use variables, mixins, functions, and operations. It also allows us to nest the elements.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
