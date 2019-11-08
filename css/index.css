@@ -161,15 +161,17 @@ p {
   margin: 0 auto;
 }
 .navbar {
+  background: #F6F6F6;
   max-width: 800px;
   margin: 0 auto;
+  border: #F1F1F1;
   text-align: center;
 }
 .navbar h2 {
   margin: 2%;
 }
 .navbar a {
-  font-color: #454A59;
+  color: #454A59;
   font-size: 1.5rem;
   margin: 1%;
 }
@@ -233,4 +235,22 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.home .signup {
+  background: #22283A;
+  color: #dee2e6;
+  width: 25%;
+  padding: 2%;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.home .signup:hover {
+  background: #dee2e6;
+  color: #22283A;
+  width: 25%;
+  padding: 2%;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
