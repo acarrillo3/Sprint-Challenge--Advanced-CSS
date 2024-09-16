@@ -1,7 +1,6 @@
 // Home Content
 
 .home {
-
   .intro {
 
     h2 {
@@ -55,11 +54,8 @@
 
       p {
         margin-bottom: 26px;
-      }
-
-      .btn {
-      }
-    }
+      }// end of p
+    }//end of walk.text
 
     .walk-img {
       width: 46%;
@@ -69,7 +65,51 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
-      }
+      }//end of img
+    }//end of walk-img
+  }//end of .walk
+  .signup {
+    .button(@btn-bg-color, @border-real);
+    &:hover{
+      .button(@border-real, @btn-bg-color);
     }
   }
 }// home
+//media queries start here
+@media @phone {
+  html {
+    display: flex;
+    p {
+      font-size: 2.5rem;
+    }// end of p 
+    h3 {
+      font-size: 4rem;
+    }//end of h3
+  }// end of html
+  .space-images .blast {
+    width: 90% !important;
+  }// end of space
+  .sky, .launch {
+    display: none;
+  }//end of sky
+  .walk {
+    flex-direction: column-reverse;
+    width: 100;
+    padding: 0 !important;
+    margin: 0 !important;
+    .walk-text {
+      justify-content: center;
+      width: 90% !important;
+      padding: 20px !important;
+      margin: 3%;
+      }//end of walk txt
+    }//end of walk
+    .signup {
+      width:100%;
+      font-size: 4rem;
+    }// end of sign up
+    .walk-img{
+      width: 90% !important;
+    }//walkin
+  }// end of walk
+//end of media queries 
